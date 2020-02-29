@@ -1,0 +1,129 @@
+h2 {
+  margin-bottom: 30px;
+}
+
+.container {
+  background: black;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+}
+
+.home {
+  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('/images/black-dslr-camera.jpg');
+  background-position: center center,center -150px;
+  background-size: cover, cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__heading {
+    font-size: 140px;
+    color: var(--yellow);
+    text-align: center;
+  }
+
+  .scroll-indicator {
+    position: absolute;
+    left: 50%;
+    bottom: 10vh;
+    transform: translateX(-50%);
+
+    span {
+      display: block;
+      color: var(--yellow);
+      margin-bottom: 30px;
+      font-size: 20px;
+    }
+
+    svg {
+      width: 100%;
+    }
+  }
+}
+
+.manual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('/images/manual.png');
+  background-position: right bottom,left top;
+  background-size: cover,auto 100%;
+  background-repeat: no-repeat ;
+
+  .text {
+    max-width: 500px;
+    h2 {
+      color: var(--yellow);
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 28px;
+      color: white;
+    }
+  }
+}
+
+.aperture {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  background: linear-gradient(-45deg, #0d1e38, #0A2E6700);
+  background-position: right bottom;
+  background-size: cover;
+  background-repeat: no-repeat ;
+
+  .text {
+    max-width: 450px;
+    h2 {
+      color: var(--yellow);
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 26px;
+      color: white;
+    }
+  }
+  img {
+    max-height: 75%;
+    justify-self: self-end;
+    margin-right: 50px;
+    max-width: 100%;
+  }
+}
+
+.footer {
+  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('/images/lens.jpg');
+  background-size: cover, cover;
+  background-position: right bottom,center;
+  background-repeat: no-repeat ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: var(--yellow);
+  font-weight: bold;
+  position: relative;
+
+  > a {
+    position: absolute;
+    text-align: center;
+    color: var(--yellow);
+    bottom: 10vh;
+  }
+}
+
+.cls-1 {
+  fill: none;
+  stroke: #fff84d;
+  stroke-width: 4px;
+}
+
+.alternate {
+  animation-direction: alternate !important;
+}
