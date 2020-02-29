@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0680c585e27d5404310581b6c78f895",
+    "revision": "41774604394c6a94d2f686e18313be3e",
     "url": "/photography/index.html"
   },
   {
-    "revision": "54490135437bdce020e6",
-    "url": "/photography/static/css/main.585b7c3c.chunk.css"
+    "revision": "43b1fe195cd313604fcb",
+    "url": "/photography/static/css/main.ffaa51c6.chunk.css"
   },
   {
-    "revision": "4611ef5dc532ff94f37a",
-    "url": "/photography/static/js/2.478069d0.chunk.js"
+    "revision": "6788c164b3b0057f0f80",
+    "url": "/photography/static/js/2.0bf4d137.chunk.js"
   },
   {
-    "revision": "5356fa2f66e46e6c05e4cbe319ac7f1d",
-    "url": "/photography/static/js/2.478069d0.chunk.js.LICENSE.txt"
+    "revision": "776b9d07ffd005206ca2919d360922b5",
+    "url": "/photography/static/js/2.0bf4d137.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "54490135437bdce020e6",
-    "url": "/photography/static/js/main.7d794a6f.chunk.js"
+    "revision": "43b1fe195cd313604fcb",
+    "url": "/photography/static/js/main.6c9133d8.chunk.js"
   },
   {
     "revision": "7602015dfcc6dc53ebe2",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "95c2b1260f9bd4ac1f0f447cbadd81e3",
     "url": "/photography/static/media/lens.95c2b126.jpg"
+  },
+  {
+    "revision": "576bf515a26a8c552da5fccd23c73543",
+    "url": "/photography/static/media/logo.576bf515.svg"
   },
   {
     "revision": "c86314ef9c978bdd5edf0d62b1e2583d",
