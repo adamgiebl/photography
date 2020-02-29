@@ -1,5 +1,4 @@
 import React from "react";
-import image from './collage.png';
 
 function Aperture() {
   return (
@@ -18,7 +17,7 @@ function Aperture() {
           setting.
         </p>
       </div>
-      <img src={image} alt=""/>
+      <img src="collage.png" alt=""/>
     </div>
   );
 }

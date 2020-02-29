@@ -12,7 +12,7 @@ h2 {
 }
 
 .home {
-  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('./black-dslr-camera.jpg');
+  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('/black-dslr-camera.jpg');
   background-position: center center,center -150px;
   background-size: cover, cover;
   display: flex;
@@ -48,7 +48,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-content: center;
-  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('./manual.png');
+  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('/manual.png');
   background-position: right bottom,left top;
   background-size: cover,auto 100%;
   background-repeat: no-repeat ;
@@ -97,7 +97,7 @@ h2 {
 }
 
 .footer {
-  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('./lens.jpg');
+  background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('/lens.jpg');
   background-size: cover, cover;
   background-position: right bottom,center;
   background-repeat: no-repeat ;
