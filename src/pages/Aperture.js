@@ -1,10 +1,11 @@
 import React from "react";
+import image from './collage.png';
 
 function Aperture() {
   return (
     <div className="page aperture">
       <div className="text">
-        <h2 className="aperture__heading">Aperture or shutter priority</h2>
+        <h2 className="text__heading">Aperture or shutter priority</h2>
         <p>
           In the two priority modes you gain control over either the aperture or
           the shutter speed and the camera will automatically choose the other.
@@ -17,7 +18,7 @@ function Aperture() {
           setting.
         </p>
       </div>
-      <img src="/images/collage.png" alt=""/>
+      <img src={image} alt=""/>
     </div>
   );
 }
