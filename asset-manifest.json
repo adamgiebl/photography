@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/photography/static/css/main.ffaa51c6.chunk.css",
-    "main.js": "/photography/static/js/main.6c9133d8.chunk.js",
-    "main.js.map": "/photography/static/js/main.6c9133d8.chunk.js.map",
+    "main.css": "/photography/static/css/main.3bd493db.chunk.css",
+    "main.js": "/photography/static/js/main.1726d23a.chunk.js",
+    "main.js.map": "/photography/static/js/main.1726d23a.chunk.js.map",
     "runtime-main.js": "/photography/static/js/runtime-main.dbe9543f.js",
     "runtime-main.js.map": "/photography/static/js/runtime-main.dbe9543f.js.map",
     "static/js/2.0bf4d137.chunk.js": "/photography/static/js/2.0bf4d137.chunk.js",
     "static/js/2.0bf4d137.chunk.js.map": "/photography/static/js/2.0bf4d137.chunk.js.map",
     "index.html": "/photography/index.html",
-    "precache-manifest.ea411910a78d5f81d8b6710001f3cb07.js": "/photography/precache-manifest.ea411910a78d5f81d8b6710001f3cb07.js",
+    "precache-manifest.99190a097ec9c96c183c5868ad2566a3.js": "/photography/precache-manifest.99190a097ec9c96c183c5868ad2566a3.js",
     "service-worker.js": "/photography/service-worker.js",
-    "static/css/main.ffaa51c6.chunk.css.map": "/photography/static/css/main.ffaa51c6.chunk.css.map",
+    "static/css/main.3bd493db.chunk.css.map": "/photography/static/css/main.3bd493db.chunk.css.map",
     "static/js/2.0bf4d137.chunk.js.LICENSE.txt": "/photography/static/js/2.0bf4d137.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/photography/static/media/manual.c86314ef.png",
     "static/media/collage.png": "/photography/static/media/collage.f57d02ad.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.dbe9543f.js",
     "static/js/2.0bf4d137.chunk.js",
-    "static/css/main.ffaa51c6.chunk.css",
-    "static/js/main.6c9133d8.chunk.js"
+    "static/css/main.3bd493db.chunk.css",
+    "static/js/main.1726d23a.chunk.js"
   ]
 }
