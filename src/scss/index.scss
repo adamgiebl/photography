@@ -57,3 +57,8 @@ svg polygon {
             transform: rotate(360deg);
   }
 }
+
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: var(--yellow) !important;
+}

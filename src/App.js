@@ -7,12 +7,12 @@ import Footer from './pages/Footer';
 
 const App = () => {
   return (
-    <div className="container">
+    <>
       <Home />
       <Manual />
       <Aperture />
       <Footer />
-    </div>
+    </>
   );
 }
 
