@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "606afeedb7d56953fc2532dfa078f15e",
+    "revision": "6ee074e1033d6b5bd7ccfa767f8c3d78",
     "url": "/photography/index.html"
   },
   {
-    "revision": "f4c030578f4d5acaf1b9",
-    "url": "/photography/static/css/main.56b54c2e.chunk.css"
+    "revision": "145d54ec813f63885eac",
+    "url": "/photography/static/css/main.c1ef2978.chunk.css"
   },
   {
-    "revision": "b7bb2f56bd3d6081419f",
-    "url": "/photography/static/js/2.eb21913c.chunk.js"
+    "revision": "cf7ca9939add57209a1d",
+    "url": "/photography/static/js/2.418a6e38.chunk.js"
   },
   {
     "revision": "776b9d07ffd005206ca2919d360922b5",
-    "url": "/photography/static/js/2.eb21913c.chunk.js.LICENSE.txt"
+    "url": "/photography/static/js/2.418a6e38.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f4c030578f4d5acaf1b9",
-    "url": "/photography/static/js/main.8e1593a1.chunk.js"
+    "revision": "145d54ec813f63885eac",
+    "url": "/photography/static/js/main.2b637be3.chunk.js"
   },
   {
     "revision": "7602015dfcc6dc53ebe2",
     "url": "/photography/static/js/runtime-main.dbe9543f.js"
   },
   {
+    "revision": "d1e5b04fbd32dd1b9287c8bbdb58836a",
+    "url": "/photography/static/media/arrow.d1e5b04f.svg"
+  },
+  {
     "revision": "e237183103d073c30bbd46baf86afb99",
     "url": "/photography/static/media/black-dslr-camera.e2371831.png"
   },
   {
-    "revision": "34ce48090f71113175ba7bc10da72667",
-    "url": "/photography/static/media/camera-manual.34ce4809.jpg"
+    "revision": "4d714a1a732d761215a87f3e1f1ec4a2",
+    "url": "/photography/static/media/camera-manual.4d714a1a.jpg"
   },
   {
     "revision": "f57d02ad91cb1d5314de8e4b4adcda74",
