@@ -21,7 +21,7 @@ function Aperture() {
             setting.
           </p>
         </div>
-        <img data-src={image} alt=""/>
+        <img src={image} alt=""/>
       </div>
     </div>
   );

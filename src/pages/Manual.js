@@ -5,7 +5,7 @@ function Manual() {
   return (
     <div className="section">
       <div className="page manual">
-      <img data-src={logo} className="logo" alt="" />
+      <img src={logo} className="logo" alt="" />
         <div className="text">
         </div>
         <div className="text">

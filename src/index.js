@@ -10,29 +10,47 @@ import Manual from './pages/Manual';
 import Aperture from './pages/Aperture';
 import Footer from './pages/Footer';
 
-const Fullpage = () => (
-    <ReactFullpage
-      //fullpage options
-      licenseKey = {'YOUR_KEY_HERE'}
-      scrollingSpeed = {800} /* Options here */
-      continuousVertical = {true}
-      navigation = {true}
-      parallax = {true}
-  
-      render={({ state, fullpageApi }) => {
-        return (
-          <ReactFullpage.Wrapper>
-            <Home />
-            <Manual />
-            <Aperture />
-            <Footer />
-          </ReactFullpage.Wrapper>
-        );
-      }}
-    />
-  );
+const windowWidth = window.innerWidth;
 
-ReactDOM.render(<Fullpage />, document.getElementById('root'));
+const Fullpage = () => (
+	<ReactFullpage
+		//fullpage options
+		licenseKey = {'YOUR_KEY_HERE'}
+		scrollingSpeed = {800} /* Options here */
+		continuousVertical = {true}
+		navigation = {true}
+		parallax = {true}
+
+		render={({ state, fullpageApi }) => {
+			return (
+				<ReactFullpage.Wrapper>
+					<Home />
+					<Manual />
+					<Aperture />
+					<Footer />
+				</ReactFullpage.Wrapper>
+			);
+		}}
+	/>
+);
+
+if (windowWidth < 1000) {
+	ReactDOM.render(
+		<>
+			<Home />
+			<Manual />
+			<Aperture />
+			<Footer />
+		</>, document.getElementById('root'));
+}
+else {
+	ReactDOM.render(<Fullpage />, document.getElementById('root'));	
+}
+
+
+
+
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

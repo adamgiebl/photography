@@ -2,7 +2,7 @@ h2 {
   margin-bottom: 30px;
 }
 body {
-  background: #010203;
+  background:black;
 }
 
 .page {
@@ -16,6 +16,10 @@ body {
     top: 37px;
     max-width: 45px;
     max-height: 45px;
+
+    @media only screen and (max-width: 800px) {
+      display: none;
+    }
   }
 }
 
@@ -23,15 +27,24 @@ body {
   background: linear-gradient(-45deg, #0d1e38, #0A2E6700), url('../images/black-dslr-camera.png');
   background-position: center center,center center;
   background-size: cover, cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 
+  @media only screen and (max-width: 1100px) {
+    background-size: cover, 100% auto;
+  }
+
   .logo {
     left: 50%;
     transform: translateX(-50%);
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 60px;
+    max-height: 60px;
+
+    @media only screen and (max-width: 800px) {
+      display: block;
+    }
   }
 
   &__heading {
@@ -39,6 +52,10 @@ body {
     color: var(--yellow);
     text-align: center;
     width: 70vw;
+
+    @media only screen and (max-width: 1100px) {
+      width: 85vw;
+    }
   }
 
   .scroll-indicator {
@@ -49,13 +66,14 @@ body {
 
     span {
       display: block;
-      color: var(--yellow);
+      color: white;
       margin-bottom: 30px;
       font-size: 20px;
     }
 
-    svg {
+    .arrow {
       max-height: 15px;
+      fill: white;
       width: 100%;
     }
   }
@@ -66,10 +84,17 @@ body {
   grid-template-columns: 1fr 1fr;
   place-items: center;
   padding: 0 50px;
-  background: linear-gradient(-45deg, #0d1e38a6, #0A2E6700), url('../images/camera.png');
+  background-image: linear-gradient(-45deg, #0d1e38a6, #0A2E6700), url('../images/camera-manual.jpg');
   background-position: right bottom,left top;
   background-size: cover,auto 100%;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
+
+  @media only screen and (max-width: 1100px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-45deg, #0d1625cc, #01010294), url('../images/camera-manual.jpg');
+  }
 
   .text {
     max-width: 500px;
@@ -89,10 +114,15 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  //background: linear-gradient(-45deg, #0d1e38a6, #0A2E6700);
   background-position: right bottom;
   background-size: cover;
   background-repeat: no-repeat ;
+
+  @media only screen and (max-width: 990px) {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 50px 0;
+  }
 
   .text {
     max-width: 450px;
@@ -109,6 +139,13 @@ body {
   img {
     max-height: 75%;
     max-width: 85%;
+
+    @media only screen and (max-width: 990px) {
+      max-height: unset;
+      max-width: 451px;
+      margin-top: 30px;
+    }
+   
   }
 }
 
@@ -131,6 +168,24 @@ body {
     text-align: center;
     color: var(--yellow);
     bottom: 10vh;
+  }
+
+  .smaller {
+    font-size: 117px;
+  }
+
+  .bigger {
+    font-size: 220px;
+  }
+
+
+  @media only screen and (max-width: 990px) {
+    .smaller {
+      font-size: 10vw;
+    }
+    .bigger {
+      font-size: 20vw;
+    }
   }
 }
 
