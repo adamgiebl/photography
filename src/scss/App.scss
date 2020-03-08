@@ -173,11 +173,21 @@ body {
     color: var(--yellow);
     text-decoration: none;
     display: inline-block;
+    background: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(0.95);
+    }
   }
 
   a {
     text-align: center;
     color: var(--yellow);
+    display: inline-block;
+    margin-right: 20px;
   }
 
   .smaller {
