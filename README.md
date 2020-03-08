@@ -20,3 +20,7 @@
 
 Sketches:
 ![sketches](https://adamgiebl.github.io/photography/sketches.jpg "sketches")
+
+## Color palette
+
+![color palette](https://adamgiebl.github.io/photography/colors.png "color palette")
