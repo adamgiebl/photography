@@ -10,9 +10,10 @@ function Home() {
       <div className="page home">
       <img src={logo} className="logo" alt="" />
         <img src={title} className="home__heading animated zoomInUp" alt="" />
+        <a class="button" href="../images/moodboard.png">moodboard</a>
         <div className="scroll-indicator">
           <span>scroll down</span>
-          <img src={arrow} className="arrow" alt="scroll indicator"/>
+          <img src={arrow} className="arrow animated slideOutDown alternate" alt="scroll indicator"/>
         </div>
       </div>
     </div>

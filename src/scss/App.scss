@@ -77,6 +77,17 @@ body {
       width: 100%;
     }
   }
+
+  .button {
+    padding: 5px 10px;
+    border: 2px solid var(--yellow);
+    border-radius: 4px;
+    color: var(--yellow);
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+  }
 }
 
 .manual {
