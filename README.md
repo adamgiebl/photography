@@ -4,6 +4,8 @@
 
 ## Docs
 
+[Website](https://adamgiebl.github.io/photography/)
+
 [XD prototype](https://xd.adobe.com/view/70f68f47-c92c-4282-4aa0-edee35303aa8-06c7/)
 
 ## Moodboard
@@ -15,4 +17,4 @@
 ![logo](https://adamgiebl.github.io/photography/Logo.png "logo")
 
 Sketches:
-![sketches](https://adamgiebl.github.io/photography/skteches.jpg "sketches")
+![sketches](https://adamgiebl.github.io/photography/sketches.jpg "sketches")
