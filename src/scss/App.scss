@@ -63,6 +63,9 @@ body {
     left: 50%;
     bottom: 10vh;
     transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     span {
       display: block;
@@ -76,17 +79,6 @@ body {
       fill: white;
       width: 100%;
     }
-  }
-
-  .button {
-    padding: 5px 10px;
-    border: 2px solid var(--yellow);
-    border-radius: 4px;
-    color: var(--yellow);
-    text-decoration: none;
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
   }
 }
 
@@ -174,11 +166,18 @@ body {
   font-weight: bold;
   position: relative;
 
-  > a {
-    position: absolute;
+  .button {
+    padding: 5px 10px;
+    border: 2px solid var(--yellow);
+    border-radius: 4px;
+    color: var(--yellow);
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a {
     text-align: center;
     color: var(--yellow);
-    bottom: 10vh;
   }
 
   .smaller {
