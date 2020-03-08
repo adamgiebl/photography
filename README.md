@@ -6,5 +6,11 @@
 
 ## Moodboard
 
-nline-style: 
-![alt text](https://adamgiebl.github.io/photography/moodboard.png "Logo Title Text 1")
+![alt text](https://adamgiebl.github.io/photography/moodboard.png "Moodboard")
+
+## Logo 
+
+![alt text](https://adamgiebl.github.io/photography/Logo.png "logo")
+
+Sketches:
+![alt text](https://adamgiebl.github.io/photography/skteches.jpg "sketches")
