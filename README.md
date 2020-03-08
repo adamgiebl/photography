@@ -8,6 +8,8 @@
 
 [XD prototype](https://xd.adobe.com/view/70f68f47-c92c-4282-4aa0-edee35303aa8-06c7/)
 
+[License](https://github.com/adamgiebl/photography/blob/master/LICENSE)
+
 ## Moodboard
 
 ![moodboard](https://adamgiebl.github.io/photography/moodboard.png "Moodboard")
