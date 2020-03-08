@@ -12,15 +12,21 @@
 
 ## Moodboard
 
-![moodboard](https://adamgiebl.github.io/photography/moodboard.png "Moodboard")
+![moodboard](https://adamgiebl.github.io/photography/moodboard.png)
 
 ## Logo 
 
-![logo](https://adamgiebl.github.io/photography/Logo.png "logo")
+![logo](https://adamgiebl.github.io/photography/Logo.png)
 
 Sketches:
-![sketches](https://adamgiebl.github.io/photography/sketches.jpg "sketches")
+![sketches](https://adamgiebl.github.io/photography/sketches.jpg)
+
+## Font 
+
+[Get it on Google fonts](https://fonts.google.com/specimen/Source+Sans+Pro)  
+
+![font](https://adamgiebl.github.io/photography/font.png)
 
 ## Color palette
 
-![color palette](https://adamgiebl.github.io/photography/colors.png "color palette")
+![color palette](https://adamgiebl.github.io/photography/colors.png)
