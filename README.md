@@ -6,11 +6,11 @@
 
 ## Moodboard
 
-![alt text](https://adamgiebl.github.io/photography/moodboard.png "Moodboard")
+![moodboard](https://adamgiebl.github.io/photography/moodboard.png "Moodboard")
 
 ## Logo 
 
-![alt text](https://adamgiebl.github.io/photography/Logo.png "logo")
+![logo](https://adamgiebl.github.io/photography/Logo.png "logo")
 
 Sketches:
-![alt text](https://adamgiebl.github.io/photography/skteches.jpg "sketches")
+![sketches](https://adamgiebl.github.io/photography/skteches.jpg "sketches")
